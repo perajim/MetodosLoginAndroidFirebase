@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "86845671994",
+    "firebase_url": "https://platzi-firebase-curso-432c5.firebaseio.com",
+    "project_id": "platzi-firebase-curso-432c5",
+    "storage_bucket": "platzi-firebase-curso-432c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86845671994:android:46150945927259ae",
+        "android_client_info": {
+          "package_name": "perajim.firebasecursoplatzi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86845671994-3n37c1kri0bv9mi730n5vejbu79fc9gr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "perajim.firebasecursoplatzi",
+            "certificate_hash": "9b3ac03331b01eeb4debe3cb02168d110b7942d3"
+          }
+        },
+        {
+          "client_id": "86845671994-cp5c07og4g9bddmrn4elht57vuhhv115.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ58Ac4LrDGamE8rWNcosefULO4YGm1r0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86845671994-cp5c07og4g9bddmrn4elht57vuhhv115.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

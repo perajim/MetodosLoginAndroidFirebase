@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="perajim.firebasecursoplatzi.MainActivity"
+    android:orientation="vertical"
+    >
+
+  <EditText
+      android:id="@+id/edtEmail"
+      android:hint="@string/hint_email"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="textEmailAddress"
+      />
+    <EditText
+        android:id="@+id/edtPassword"
+        android:hint="@string/hint_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:text="@string/create_account_button"
+        android:id="@+id/btnCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/sign_button"
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btnSignInGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+  <com.facebook.login.widget.LoginButton
+    android:id="@+id/btnSignInFacebook"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:layout_gravity="center_horizontal"
+      />
+
+
+
+</LinearLayout>
